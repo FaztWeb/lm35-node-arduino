@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Temperature with Nodejs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style media="screen">
+    html, body {
+  height:100%;
+}
+body {
+  display:flex;
+  align-items:center;
+  background: #34495e;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row justify-content-center align-self-center">
+          <div class="card">
+            <h1 id="temperature" class="display-1 p-4"></h1>
+          </div>
+      </div>
+    </div>
+
+    <script src="socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
